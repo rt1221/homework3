@@ -374,6 +374,18 @@ void drawBackground(){
     
 }
 
+
+void displayWin(){
+    
+    drawBackground();
+    GLuint font = LoadTexture("pixel_font.png");
+    DrawText(font, "YOU WIN", 0.07f, 0.04f, 0.0f, 1.0f, 1.0f, 1.0f, -0.4, 0.8);
+    
+    
+    
+    // DrawSprite(spaceInvadersSprite, 0.0, 0.0, 0.00, 1.00, 1.00);
+}
+
 void titleScreen(){
     
     drawBackground();
@@ -415,8 +427,9 @@ int main(int argc, char *argv[]){
     vector<Entity> theGuys;
     vector<Bullet> bullets;
     
-    int score=0;
     int count=0;
+ int score=0;
+  //  int count=0;
     
 
   //------------------entity----------------------------------
@@ -451,8 +464,8 @@ int main(int argc, char *argv[]){
     
     while (!done) {
         
-        
-        
+       
+
          glClear(GL_COLOR_BUFFER_BIT);
         
         
@@ -548,9 +561,14 @@ int main(int argc, char *argv[]){
         }
         }
             
+     /*
+         for (int i =0; i < theGuys.size(); i++ ){
+         
+             if( theGuys[i].visible == false ) count_dead++;
+         
+         }
         
-        
-        
+        */
      
       
         SDL_GL_SwapWindow(displayWindow);

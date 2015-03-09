@@ -15,12 +15,12 @@
 		6D5A86E319AE5CD10066C1FD /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A86E219AE5CD10066C1FD /* SDL2.framework */; };
 		6D5AC2D019AE6280004CB1BF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5AC2CF19AE6280004CB1BF /* OpenGL.framework */; };
 		6D5AC2D219AE6A1E004CB1BF /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5AC2D119AE6A1E004CB1BF /* SDL2_image.framework */; };
+		E64DA6AC1AAD4A1A005F5EFB /* 53209.png in Resources */ = {isa = PBXBuildFile; fileRef = E64DA6AB1AAD4A1A005F5EFB /* 53209.png */; };
+		E64DA6AE1AAD4AB2005F5EFB /* gun.png in Resources */ = {isa = PBXBuildFile; fileRef = E64DA6AD1AAD4AB2005F5EFB /* gun.png */; };
 		E68998CB1A9A7F5000A639DA /* characters_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E68998CA1A9A7F5000A639DA /* characters_1.png */; };
 		E68998D31A9B085A00A639DA /* pixel_font.png in Resources */ = {isa = PBXBuildFile; fileRef = E68998D21A9B085A00A639DA /* pixel_font.png */; };
 		E689990A1A9BC9CF00A639DA /* 53209.png in Resources */ = {isa = PBXBuildFile; fileRef = E68999091A9BC9CF00A639DA /* 53209.png */; };
 		E689990C1A9BF5D500A639DA /* gun.png in Resources */ = {isa = PBXBuildFile; fileRef = E689990B1A9BF5D500A639DA /* gun.png */; };
-		E6BD62B11A9FE5070038E2E7 /* clouds-vector-backgrounds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6BD62B01A9FE5070038E2E7 /* clouds-vector-backgrounds.jpg */; };
-		E6BD62B31A9FE8240038E2E7 /* ScreenshotStarfield.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BD62B21A9FE8240038E2E7 /* ScreenshotStarfield.png */; };
 		E6BD62B51A9FE83B0038E2E7 /* artwork-galaxies-space-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6BD62B41A9FE83B0038E2E7 /* artwork-galaxies-space-1024x768.jpg */; };
 /* End PBXBuildFile section */
 
@@ -40,12 +40,12 @@
 		6D5A86E219AE5CD10066C1FD /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		6D5AC2CF19AE6280004CB1BF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		6D5AC2D119AE6A1E004CB1BF /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		E64DA6AB1AAD4A1A005F5EFB /* 53209.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 53209.png; sourceTree = "<group>"; };
+		E64DA6AD1AAD4AB2005F5EFB /* gun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gun.png; sourceTree = "<group>"; };
 		E68998CA1A9A7F5000A639DA /* characters_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = characters_1.png; sourceTree = "<group>"; };
 		E68998D21A9B085A00A639DA /* pixel_font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pixel_font.png; sourceTree = "<group>"; };
 		E68999091A9BC9CF00A639DA /* 53209.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 53209.png; path = ../../../../../Desktop/53209.png; sourceTree = "<group>"; };
 		E689990B1A9BF5D500A639DA /* gun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gun.png; path = ../../../../../Desktop/gun.png; sourceTree = "<group>"; };
-		E6BD62B01A9FE5070038E2E7 /* clouds-vector-backgrounds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "clouds-vector-backgrounds.jpg"; path = "../../../../../Desktop/clouds-vector-backgrounds.jpg"; sourceTree = "<group>"; };
-		E6BD62B21A9FE8240038E2E7 /* ScreenshotStarfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ScreenshotStarfield.png; path = ../../../../../Desktop/ScreenshotStarfield.png; sourceTree = "<group>"; };
 		E6BD62B41A9FE83B0038E2E7 /* artwork-galaxies-space-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "artwork-galaxies-space-1024x768.jpg"; path = "../../../../artwork-galaxies-space-1024x768.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,9 +116,9 @@
 		6D5A86B419AE5C710066C1FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E64DA6AB1AAD4A1A005F5EFB /* 53209.png */,
 				E6BD62B41A9FE83B0038E2E7 /* artwork-galaxies-space-1024x768.jpg */,
-				E6BD62B21A9FE8240038E2E7 /* ScreenshotStarfield.png */,
-				E6BD62B01A9FE5070038E2E7 /* clouds-vector-backgrounds.jpg */,
+				E64DA6AD1AAD4AB2005F5EFB /* gun.png */,
 				E689990B1A9BF5D500A639DA /* gun.png */,
 				E68999091A9BC9CF00A639DA /* 53209.png */,
 				E68998D21A9B085A00A639DA /* pixel_font.png */,
@@ -209,15 +209,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64DA6AE1AAD4AB2005F5EFB /* gun.png in Resources */,
 				E689990C1A9BF5D500A639DA /* gun.png in Resources */,
 				6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */,
 				E689990A1A9BC9CF00A639DA /* 53209.png in Resources */,
 				E6BD62B51A9FE83B0038E2E7 /* artwork-galaxies-space-1024x768.jpg in Resources */,
 				6D5A86C619AE5C710066C1FD /* Images.xcassets in Resources */,
 				E68998D31A9B085A00A639DA /* pixel_font.png in Resources */,
-				E6BD62B31A9FE8240038E2E7 /* ScreenshotStarfield.png in Resources */,
+				E64DA6AC1AAD4A1A005F5EFB /* 53209.png in Resources */,
 				6D5A86BE19AE5C710066C1FD /* Credits.rtf in Resources */,
-				E6BD62B11A9FE5070038E2E7 /* clouds-vector-backgrounds.jpg in Resources */,
 				E68998CB1A9A7F5000A639DA /* characters_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
